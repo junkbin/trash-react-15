@@ -1,0 +1,28 @@
+.top-header{
+    height: 3rem;
+}
+
+.full-screen{
+    height: 100vh;
+}
+
+.make-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.make-left{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.text-primary{
+    font-size: 2rem;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+
+

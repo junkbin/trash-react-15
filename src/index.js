@@ -1,14 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-import {Third} from './day1'
+import {Fourth} from './day1'
 
 
 
-const element = <Third></Third>;
+const element = <Fourth />;
 
 ReactDOM.render(element, document.getElementById('root'));
 

@@ -1,0 +1,35 @@
+.full-screen{
+    height: 100vh;
+}
+
+.make-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textify{
+    font-size: 4rem;
+    font-family: monospace;
+    font-weight: bold;
+    background: royalblue;
+    color:ghostwhite;
+}
+
+.span {
+    width: 5rem;
+    background: tomato;
+    border-radius: 5px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.btn{
+    height: 2rem;
+    border-radius: 5px;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: x-large;
+    color: rgb(0, 0, 0, 0.6);
+}
+

@@ -67,7 +67,7 @@ class AppArea extends React.Component {
     render(){
         return (
             <Row className="justify-content-center h-post-box mb-1">
-                <Col xs="6" className="bg-info rounded text-light text-ext-2 make-center">
+                <Col xs="6" className="bg-light rounded text-black-50 text-ext-2 make-center">
                     {this.props.post}
                 </Col>
             </Row>

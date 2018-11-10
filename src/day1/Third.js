@@ -21,10 +21,15 @@ class Third extends React.Component {
     }
 
     increment() {
-        // console.log(this.state.counter, new Date());
 
-        const counter = this.state.counter + 1;
-        this.setState({"counter" : counter});
+        // SYNC USE CASE
+        // const counter = this.state.counter + 1;
+        // this.setState({"counter" : counter});
+
+        // ASYNC USE CASE
+        this.setState((state, props)=>({
+            "counter" : state.counter + 1  
+        }));
     }
 
     render() {

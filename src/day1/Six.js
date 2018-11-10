@@ -10,14 +10,23 @@ export default class Six extends React.Component {
 
     constructor(props){
         super(props);
-        this.state = {};
+
+        const postList = [1, 2, 3, 4, 5];
+        this.state = {"postList" : postList};
     }
 
     render() {
+        let allPostBox = this.state.postList.map((ielem, index)=>
+            <AppArea key={index.toString()} />
+        );
+
         return (
             <React.Fragment>
                 <AppHeader />
-                <AppArea />
+                
+                <Container fluid={true}>
+                    {allPostBox}
+                </Container>
             </React.Fragment>
         );
     }
@@ -57,13 +66,11 @@ class AppArea extends React.Component {
 
     render(){
         return (
-            <Container fluid={true}>
-                <Row className="justify-content-center h-post-box">
-                    <Col xs="6" className="bg-info rounded text-light text-ext-2 make-center">
-                        {this.props.post}
-                    </Col>
-                </Row>
-            </Container>
+            <Row className="justify-content-center h-post-box mb-1">
+                <Col xs="6" className="bg-info rounded text-light text-ext-2 make-center">
+                    {this.props.post}
+                </Col>
+            </Row>
         );
     }
 }

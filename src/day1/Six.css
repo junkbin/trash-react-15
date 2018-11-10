@@ -18,11 +18,21 @@
     align-items: center;
 }
 
-.text-primary{
+.text-ext-1{
     font-size: 2rem;
     font-family: monospace;
     font-weight: bold;
 }
 
+.text-ext-2{
+    font-size: 3rem;
+    font-family: monospace;
+    font-weight: bolder;
+}
+
+
+.h-post-box {
+    height: 6rem;
+}
 
 

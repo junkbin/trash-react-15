@@ -15,13 +15,10 @@ export default class Six extends React.Component {
 
     render() {
         return (
-            <div>
+            <React.Fragment>
                 <AppHeader />
-
-                <AppHeader name="Brand B" />
-
-                <AppHeader />
-            </div>
+                <AppArea />
+            </React.Fragment>
         );
     }
 }
@@ -36,7 +33,7 @@ class AppHeader extends React.Component {
         return (
             <Container fluid={true} className="mb-1">
                 <Row className="top-header bg-dark">
-                    <Col xs="3" className="make-left text-light text-primary">
+                    <Col xs="3" className="make-left text-light text-ext-1">
                         {this.props.name}
                     </Col>
                     <Col xs="9"></Col>
@@ -48,4 +45,29 @@ class AppHeader extends React.Component {
 
 AppHeader.defaultProps = {
     "name" : "Affixus"
+};
+
+
+
+class AppArea extends React.Component {
+    constructor(props){
+        super(props);
+        this.state = {};
+    }
+
+    render(){
+        return (
+            <Container fluid={true}>
+                <Row className="justify-content-center h-post-box">
+                    <Col xs="6" className="bg-info rounded text-light text-ext-2 make-center">
+                        {this.props.post}
+                    </Col>
+                </Row>
+            </Container>
+        );
+    }
+}
+
+AppArea.defaultProps = {
+    "post" : "Hello World"
 };

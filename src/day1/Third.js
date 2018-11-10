@@ -21,7 +21,6 @@ class Third extends React.Component {
     }
 
     increment() {
-
         // SYNC USE CASE
         // const counter = this.state.counter + 1;
         // this.setState({"counter" : counter});

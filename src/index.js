@@ -4,9 +4,11 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-import {First} from './first'
+import {First, Second} from './day1'
 
-const element = <First></First>;
+
+
+const element = <Second></Second>;
 
 ReactDOM.render(element, document.getElementById('root'));
 

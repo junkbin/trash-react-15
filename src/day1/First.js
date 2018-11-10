@@ -1,7 +1,7 @@
 import React from 'react';
 import './First.css'
 
-export class First extends React.Component {
+class First extends React.Component {
 
     constructor(props){
         super(props);
@@ -17,3 +17,5 @@ export class First extends React.Component {
         );
     }
 }
+
+export default First;

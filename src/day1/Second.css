@@ -1,0 +1,17 @@
+.full-screen{
+    height: 100vh;
+}
+
+.make-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textify{
+    font-size: 4rem;
+    font-family: monospace;
+    font-weight: bold;
+    background: royalblue;
+    color:ghostwhite;
+}

@@ -1,5 +1,13 @@
 import React from 'react';
+
+import Container from 'react-bootstrap/lib/Container';
+import Row from 'react-bootstrap/lib/Row';
+import Col from 'react-bootstrap/lib/Col';
+import Alert from 'react-bootstrap/lib/Alert'
+
+
 import './Fifth.css';
+
 
 class Fifth extends React.Component {
 
@@ -13,9 +21,24 @@ class Fifth extends React.Component {
 
     render(){
 
+        let items = [
+            'primary',
+            'secondary',
+            'success',
+            'danger',
+            'warning',
+            'info',
+            'light',
+            'dark',
+          ].map((variant, idx) => (
+            <Alert key={idx} variant={variant}>
+              This is a {variant} alert—check it out!
+            </Alert>
+          ));
+
         return (
-            <div className="full-screen make-center textify">
-                {this.state.title}
+            <div>
+                {items}
             </div>
         );
     }

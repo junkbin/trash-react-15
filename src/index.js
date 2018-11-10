@@ -3,7 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 import {Fifth} from './day1'
+
 
 
 

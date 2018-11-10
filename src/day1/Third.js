@@ -11,8 +11,20 @@ class Third extends React.Component {
         this.increment = this.increment.bind(this);
     }
 
+    componentDidMount() {
+        this.incInterval =  setInterval(()=>{this.increment();}, 1000);
+    }
+
+
+    componentWillUnmount() {
+        clearInterval(this.incInterval);
+    }
+
     increment() {
-        console.log(this.state.counter, new Date());
+        // console.log(this.state.counter, new Date());
+
+        const counter = this.state.counter + 1;
+        this.setState({"counter" : counter});
     }
 
     render() {

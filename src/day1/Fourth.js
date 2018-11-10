@@ -11,9 +11,16 @@ class Fourth extends React.Component {
 
 
     render(){
+        const arr = [1, 2, 3, 4, 5];
+        const elementList = arr.map((ielem, index)=>
+            <div key={index.toString()}>
+                {ielem}
+            </div>
+        );
+
         return (
             <div className="full-screen make-center textify">
-                KODEROOM
+                {elementList}
             </div>
         );
     }

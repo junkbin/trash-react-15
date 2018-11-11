@@ -76,5 +76,5 @@ class AppArea extends React.Component {
 }
 
 AppArea.defaultProps = {
-    "post" : "Hello World"
+    "post" : "React Universe"
 };

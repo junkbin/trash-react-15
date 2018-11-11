@@ -2,7 +2,6 @@
   "name": "trash-create-15",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://junkbin.github.io/trash-react-15",
   "dependencies": {
     "bootstrap": "^4.1.3",
     "react": "^16.6.1",

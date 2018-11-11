@@ -10,9 +10,31 @@ export default class RoutingBasics extends React.Component{
 
     render() {
         return (
-            <div className="full-screen make-center text-ext-2 colorify">
-                HELLO WORLD!!
-            </div>
+            <Index />
         );
     }
+}
+
+let Index = (props)=>{
+    return (
+        <div className="full-screen make-center text-ext-2 bgfy-primary">
+                HELLO INDEX!!
+        </div>
+    );
+}
+
+let Profile = ()=>{
+    return (
+        <div className="full-screen make-center text-ext-2 bgfy-secondary">
+                HELLO Profile!!
+        </div>
+    );
+}
+
+let Gallery = (props)=>{
+    return (
+        <div className="full-screen make-center text-ext-2 bgfy-primary">
+                HELLO Gallery!!
+        </div>
+    );
 }

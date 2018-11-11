@@ -30,7 +30,12 @@
     font-weight: bolder;
 }
 
-.colorify{
+.bgfy-primary{
+    background: royalblue;
+    color:ghostwhite;
+}
+
+.bgfy-secondary{
     background: tomato;
     color:ghostwhite;
 }

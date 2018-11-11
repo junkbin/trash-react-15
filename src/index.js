@@ -5,9 +5,9 @@ import * as serviceWorker from './serviceWorker';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import {RoutingBasics} from './day2'
+import {HashRoutingBasics} from './day2'
 
-const element = <RoutingBasics />;
+const element = <HashRoutingBasics />;
 
 ReactDOM.render(element, document.getElementById('root'));
 

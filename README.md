@@ -40,6 +40,8 @@
     "build": "react-scripts build && rm -rf docs && mv build docs",
 ```
 
+
+## REACT + BOOTSTRAP
 * For bootstrap integration, Install following packages.
 ```
     npm install react-bootstrap@next bootstrap

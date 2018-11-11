@@ -12,7 +12,7 @@ export default class RoutingBasics extends React.Component{
 
     render() {
         return (
-            <Router basename={process.env.PUBLIC_URL}>
+            <Router basename="/trash-react-15/">
                 <div>
                     <Route path="/" exact component={Index} />
                     <Route path="/index" component={Index} />

@@ -28,7 +28,7 @@
     yarn run deploy
 ```
 
-* (https://github.com/rafrex/spa-github-pages)[https://github.com/rafrex/spa-github-pages]
+* [https://github.com/rafrex/spa-github-pages](https://github.com/rafrex/spa-github-pages)
 
 ## NOTE OLD APPROACH MANUAL PUSH##
 * For relative reference of resources, useful at github pages, update package.json with

@@ -2,6 +2,7 @@
 * For relative reference of resources, useful at github pages, update package.json with
 ```
      "homepage": "./",
+    "homepage": "https://junkbin.github.io/trash-react-15/",
 ```
 
 * For publishing at github pages with master branch, update package.json with,

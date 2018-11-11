@@ -12,12 +12,12 @@ export default class RoutingBasics extends React.Component{
 
     render() {
         return (
-            <Router>
+            <Router basename={process.env.PUBLIC_URL}>
                 <div>
-                    <Route path={process.env.PUBLIC_URL + '/'} exact component={Index} />
-                    <Route path={process.env.PUBLIC_URL + '/index'} component={Index} />
-                    <Route path={process.env.PUBLIC_URL + '/profile'} component={Index} />
-                    <Route path={process.env.PUBLIC_URL + '/gallery'} component={Index} />
+                    <Route path="/" exact component={Index} />
+                    <Route path="/index" component={Index} />
+                    <Route path="/profile" component={Profile} />
+                    <Route path="/gallery" component={Gallery} />
                 </div>
             </Router>
         );

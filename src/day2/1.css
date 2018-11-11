@@ -1,0 +1,38 @@
+.top-header{
+    height: 3rem;
+}
+
+.full-screen{
+    height: 100vh;
+}
+
+.make-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.make-left{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.text-ext-1{
+    font-size: 2rem;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.text-ext-2{
+    font-size: 3rem;
+    font-family: monospace;
+    font-weight: bolder;
+}
+
+
+.h-post-box {
+    height: 6rem;
+}
+
+

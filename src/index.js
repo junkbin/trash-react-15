@@ -5,9 +5,9 @@ import * as serviceWorker from './serviceWorker';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import {Six} from './day1'
+import {One} from './day2'
 
-const element = <Six />;
+const element = <One />;
 
 ReactDOM.render(element, document.getElementById('root'));
 

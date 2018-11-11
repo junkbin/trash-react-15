@@ -27,7 +27,7 @@ export default class RoutingBasics extends React.Component{
 let Index = (props)=>{
     return (
         <div className="full-screen make-center text-ext-2 bgfy-primary">
-                INDEX!!
+                Indexx!!
         </div>
     );
 }
@@ -35,7 +35,7 @@ let Index = (props)=>{
 let Profile = ()=>{
     return (
         <div className="full-screen make-center text-ext-2 bgfy-secondary">
-                Profile!!
+                Profilee!!
         </div>
     );
 }
@@ -43,7 +43,7 @@ let Profile = ()=>{
 let Gallery = (props)=>{
     return (
         <div className="full-screen make-center text-ext-2 bgfy-info">
-                Gallery!!
+                Galleryy!!
         </div>
     );
 }

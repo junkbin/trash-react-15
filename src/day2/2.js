@@ -16,8 +16,8 @@ export default class RoutingBasics extends React.Component{
                 <div>
                     <Route path={process.env.PUBLIC_URL + '/'} exact component={Index} />
                     <Route path={process.env.PUBLIC_URL + '/index'} component={Index} />
-                    <Route path={process.env.PUBLIC_URL + '/profile'} component={Profile} />
-                    <Route path={process.env.PUBLIC_URL + '/gallery'} component={Gallery} />
+                    <Route path={process.env.PUBLIC_URL + '/profile'} component={Index} />
+                    <Route path={process.env.PUBLIC_URL + '/gallery'} component={Index} />
                 </div>
             </Router>
         );

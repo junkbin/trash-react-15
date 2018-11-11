@@ -30,6 +30,11 @@
     font-weight: bolder;
 }
 
+.colorify{
+    background: tomato;
+    color:ghostwhite;
+}
+
 
 .h-post-box {
     height: 6rem;
